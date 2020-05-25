@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-sidz-dev
+  AWS_PROFILE: default
+  AWS_REGION: ap-south-1
+  JWT_SECRET: hello
+  POSTGRESS_DB: udagramsidzdev
+  POSTGRESS_HOST: udagramsidzdev.cbunl1typtkp.ap-south-1.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  
